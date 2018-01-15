@@ -1,0 +1,1 @@
+var bukuApp = angular.module('BukuApp', []);
