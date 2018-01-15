@@ -30,9 +30,6 @@ public class ApiController {
 
     @RequestMapping(value = "/api/tambah", method = RequestMethod.POST) 
     public void tambahData(@RequestBody Buku buku) {
-        //System.out.println("id : " + buku.getId());
-        //System.out.println("nopol :  "+ buku.getNama());
-        //System.out.println("merk-tipe : " + buku.getJudul_buku());
         bukuRepo.save(buku);
     }
 
